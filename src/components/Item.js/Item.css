@@ -1,0 +1,64 @@
+.ArtContenedor {
+  display: grid;
+  grid-template-rows: 200px 56px 56px;
+  grid-template-columns: 300px;
+  height: 312px;
+  width: 300px;
+  border-radius: 12px;
+  margin-right: 5px;
+  margin-top: 20px;
+  border: 1px;
+  border-color: #2d2d2d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #d0d0d0;
+}
+
+.ArtContenedor img {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.ArtContenedor h2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin-left: 20px;
+}
+
+.ArtContenedor p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  font: oblique bold 160% cursive;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.FootLink {
+  margin-top: -40px;
+}
+
+.EnLink {
+  background-color: #708c74;
+  color: black;
+  border: 2px solid black; /* Green */
+  transition-duration: 0.4s;
+  padding: 4px;
+  border-radius: 48px;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 40px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  height: 40px;
+  text-decoration: none;
+}
